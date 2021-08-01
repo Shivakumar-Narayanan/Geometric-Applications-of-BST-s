@@ -19,7 +19,7 @@ The second kind of event is when we encounter the right endpoint of a horizontal
 Time Complexity - O(NlogN).  
 
 
-Working with 2 Dimensional Keys(Points on a plane) : 2d Trees - An extension of BST's that allow us to do efficient processing sets of points in space.
+Working with 2 Dimensional Keys(Points on a plane) : 2d Trees - An extension of BST's that allow us to do efficient processing on sets of points in space.
 In a 2d Tree, the binary search tree invariant changes every other level. For the first level, all points to the left lie on the left subtree and all points to its right lie on the right subtree. For the second Level, all points below lie on the left subtree and all points above lie on the right subtree. Levels 1, 3, 5, 7... have divide the points on "leftness" and "rightness" and levels 2, 4, 6, 8...divide the points on "topness" and "bottomness". 
 
 A Kd - Tree is an extension of the 2d - Tree, for k dimensions. The ith level filters the search space on the (i % k)th dimension.
